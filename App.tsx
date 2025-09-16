@@ -4,7 +4,7 @@ import { getUserById } from "./api/UserAPI";
 import axios from "axios";
 import { useEffect, useState } from "react";
 
-const URL = " https://ee17de85b5b4.ngrok-free.app/api";
+const URL = " https://ee17de85b5b4.ngrok-free.app/BackendAPI";
 const api = axios.create({
   baseURL: URL,
 });
